@@ -1,2 +1,3 @@
-# stock-profit-tracker
-Electron app to track stock wins &amp; losses over time
+# Stock Profit Tracker
+
+Electron app to track stock wins & losses over time.
