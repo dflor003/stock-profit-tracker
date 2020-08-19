@@ -1,0 +1,55 @@
+@import '../../../../../styles/media-queries';
+
+$toolbar-z: 20000;
+$content-margin-desktop: 0px;
+$content-margin-mobile: 0px;
+$toolbar-height: 64px;
+
+.sidenav-container {
+  flex: 1 1 auto;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: $toolbar-z;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo-img {
+  height: 2rem;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.logo {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.content {
+  //margin: $content-margin-desktop $content-margin-desktop 0;
+  height: calc(100vh - #{$toolbar-height} - #{$content-margin-desktop});
+
+  @include mobile {
+    //margin: $content-margin-mobile $content-margin-mobile 0;
+    height: calc(100vh - #{$toolbar-height} - #{$content-margin-mobile});
+  }
+}

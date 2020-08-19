@@ -1,0 +1,37 @@
+@import '~@angular/flex-layout/mq';
+
+@mixin desktop {
+  @include layout-bp(md) {
+    @content;
+  }
+
+  @include layout-bp(lg) {
+    @content;
+  }
+
+  @include layout-bp(xl) {
+    @content;
+  }
+}
+
+@mixin tablet-or-smaller {
+  @include layout-bp(sm) {
+    @content;
+  }
+
+  @include layout-bp(xs) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @include layout-bp(sm) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @include layout-bp(xs) {
+    @content;
+  }
+}

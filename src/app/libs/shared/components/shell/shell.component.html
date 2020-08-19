@@ -1,0 +1,39 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="drawer.toggle()"
+      [class.hide]="showMenu === false"
+      *stkShowOn="'mobile'"
+    >
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+    <a class="logo" routerLink="/">
+      <img class="logo-img" src="/assets/img/logo.svg" alt="Logo" />
+      <span>{{ title }}</span>
+    </a>
+    <stk-spacer></stk-spacer>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="true"
+    [fixedTopGap]="64"
+    [class.hide]="showMenu === false"
+    [attr.role]="(breakpoints.isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(breakpoints.isHandset$ | async) ? 'over' : 'side'"
+    [opened]="(breakpoints.isHandset$ | async) === false"
+  >
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <main class="content">
+      <ng-content></ng-content>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>

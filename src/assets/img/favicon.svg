@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 610 610" version="1.1">
+  <g id="layer4" transform="translate(5 -397.36)">
+    <g id="g3158">
+      <rect id="rect5840" stroke-linejoin="round" ry="1.5381" height="600" width="600" stroke="#4a0" y="402.36" x="0" stroke-width="10" fill="none"/>
+      <path id="rect3988" d="m47.102 955.24h85.635v-300.3c-29.81 28.442-38.871 37.19-85.586 83.64-0.36137 100.55-0.04959 140.34-0.04959 216.66z" fill="#94c207"/>
+      <path id="rect3990" d="m156.47 634.43v320.82h85.61v-274.5c-29.978-16.371-76.423-41.684-85.61-46.314z" fill="#94c207"/>
+      <path id="rect3992" d="m351.15 628.48-83.23 66.378s-1.893-1.0326-2.0832-1.1367v261.52h85.61v-326.76h-0.29761z" fill="#94c207"/>
+      <path id="rect3994" d="m452.49 546.24-0.0248 1.4539-77.253 61.594v345.35h84.222v-397.13c-2.316-3.753-4.6279-7.5084-6.9441-11.261z" fill="#94c207"/>
+      <g id="g4046" transform="matrix(.79361 0 0 .84592 -3.0937 256.25)" fill="#250">
+        <path id="path4048" d="m504.94 237.75c32.542 49.471 65.083 98.942 97.625 148.41l88.08-164.01z"/>
+        <path id="path4050" d="m574.9 250.21-233.84 175.7s-141.68-72.786-141.68-71.916c0 0.86954-137.81 123.57-136.08 126.18v90.003c9.5294-12.027 135.65-123.19 135.65-124.02 0-0.86954 142.54 72.347 142.54 72.347l232.54-173.98 0.86128-94.31z"/>
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>eco green growth icon</dc:title>
+        <dc:date>2013-09-18T20:01:18</dc:date>
+        <dc:description/>
+        <dc:source>http://openclipart.org/detail/183575/eco-green-growth-icon-by-dominiquechappard-183575</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>dominiquechappard</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>ecology</rdf:li>
+            <rdf:li>economy</rdf:li>
+            <rdf:li>green</rdf:li>
+            <rdf:li>growth</rdf:li>
+            <rdf:li>icon</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

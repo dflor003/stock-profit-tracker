@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PageNotFoundComponent } from './shared/components';
 
-import { HomeRoutingModule } from './home/home-routing.module';
+import { HomeRoutingModule } from './features/home/home-routing.module';
+import { PageNotFoundComponent } from './libs/shared';
 
 const routes: Routes = [
   {

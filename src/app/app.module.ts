@@ -1,28 +1,36 @@
+import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import 'reflect-metadata';
 import '../polyfills';
 
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { CoreModule } from './core/core.module';
-import { SharedModule } from './shared/shared.module';
-
 import { AppRoutingModule } from './app-routing.module';
-
-import { HomeModule } from './home/home.module';
-
 import { AppComponent } from './app.component';
+import { HomeModule } from './features/home/home.module';
+import { CoreModule } from './libs/core/core.module';
+import { LoggingModule } from './libs/logging';
+import { SharedModule } from './libs/shared';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
+    // Core angular modules
     BrowserModule,
-    FormsModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
     HttpClientModule,
+
+    // Framework modules
     CoreModule,
     SharedModule,
+    LoggingModule.forRoot({}),
+
+    // Feature modules
     HomeModule,
+
+    // App-wide routing
     AppRoutingModule,
   ],
   providers: [],
